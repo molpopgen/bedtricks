@@ -7,11 +7,11 @@ Makes a [genome](http://bedtools.readthedocs.org/en/latest/content/general-usage
 For plain-text FASTA file:
 
 ```
-./mkgenome file > file.genome
+./mkgenome.sh file > file.genome
 ```
 
 For a gzipped reference
 
 ```
-./mkgenome <(gunzip -c file.gz) > file.genome
+./mkgenome.sh <(gunzip -c file.gz) > file.genome
 ```
